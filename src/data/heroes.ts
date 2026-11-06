@@ -1,0 +1,48 @@
+import { CharacterHero } from '@/types/game';
+
+export const heroesData: CharacterHero[] = [
+  {
+    id: 'hero-cipher',
+    name: 'Cipher',
+    title: 'The Code Wizard',
+    description: 'A scholarly sorcerer who channels the raw power of JavaScript syntax through an enchanted crystal staff.',
+    color: '#38BDF8',
+    accent: '#0284C7',
+    avatarIcon: '🧙‍♂️',
+    cost: 0,
+    unlockedByDefault: true,
+  },
+  {
+    id: 'hero-byte',
+    name: 'Byte',
+    title: 'The Cyber Knight',
+    description: 'An agile warrior encased in reactive nanotech armor with a blade forged from compiled algorithms.',
+    color: '#EC4899',
+    accent: '#DB2777',
+    avatarIcon: '🤖',
+    cost: 150,
+    unlockedByDefault: false,
+  },
+  {
+    id: 'hero-pixel',
+    name: 'Pixel',
+    title: 'The Rogue Mechanic',
+    description: 'A nimble tinkerer who can bypass traps and unlock intricate gates with precision-crafted gadgets.',
+    color: '#F59E0B',
+    accent: '#D97706',
+    avatarIcon: '🦊',
+    cost: 250,
+    unlockedByDefault: false,
+  },
+  {
+    id: 'hero-nova',
+    name: 'Nova',
+    title: 'The Star Alchemist',
+    description: 'A celestial voyager who bends time and space using higher-order functions and cosmic arrays.',
+    color: '#8B5CF6',
+    accent: '#7C3AED',
+    avatarIcon: '✨',
+    cost: 400,
+    unlockedByDefault: false,
+  },
+];
